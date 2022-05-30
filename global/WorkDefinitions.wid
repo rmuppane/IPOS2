@@ -139,13 +139,22 @@
         "documentation" : "jbpm-workitems-sns/index.html",
 
         "parameters" : [
-            "submissionId" : new StringDataType(),
-            "EventType" : new StringDataType(),
-            "groupReference" : new StringDataType(),
-            "numberOfMembersReceived" : new StringDataType(),
-            "numberinGroup" : new StringDataType(),
-            "workOrderList" : new ListDataType()  
+            "team" : new StringDataType() 
         ],
-        "icon" : "aws-sns.png"
+        "icon" : "defaultwebserviceicon.png"
+    ],
+    
+    [
+        "name" : "Allocate",
+        "displayName" : "Allocate",
+        "category" : "jbpm-workitems-sns",
+        "description" : "",
+        "defaultHandler" : "mvel: new com.rh.handler.AllocateHandler()",
+        "documentation" : "jbpm-workitems-sns/index.html",
+
+        "parameters" : [
+            "user" : new StringDataType() 
+        ],
+        "icon" : "defaultwebserviceicon.png"
     ]
 ]
