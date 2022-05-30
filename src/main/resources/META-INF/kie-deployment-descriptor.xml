@@ -14,7 +14,13 @@
 			<resolver>mvel</resolver>
 			<identifier>new com.rh.handler.AllocateHandler()</identifier>
 			<parameters />
-			<name>Rest</name>
+			<name>Allocate</name>
+		</work-item-handler>
+		<work-item-handler>
+			<resolver>mvel</resolver>
+			<identifier>new com.rh.handler.ReassignHandler()</identifier>
+			<parameters />
+			<name>Reassign</name>
 		</work-item-handler>
 	</work-item-handlers>
     <environment-entries/>
