@@ -131,11 +131,11 @@
     ],
     
     [
-        "name" : "SNS",
-        "displayName" : "SNS",
+        "name" : "Reassign",
+        "displayName" : "Reassign",
         "category" : "jbpm-workitems-sns",
         "description" : "",
-        "defaultHandler" : "mvel: new org.jbpm.process.workitem.sns.snsWorkItemHandler()",
+        "defaultHandler" : "mvel: new org.jbpm.process.workitem.sns.Reassign()",
         "documentation" : "jbpm-workitems-sns/index.html",
 
         "parameters" : [
