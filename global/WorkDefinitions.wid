@@ -135,7 +135,7 @@
         "displayName" : "Reassign",
         "category" : "jbpm-workitems-sns",
         "description" : "",
-        "defaultHandler" : "mvel: new org.jbpm.process.workitem.sns.Reassign()",
+        "defaultHandler" : "mvel: new com.rh.handler.Reassign()",
         "documentation" : "jbpm-workitems-sns/index.html",
 
         "parameters" : [
