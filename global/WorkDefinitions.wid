@@ -128,5 +128,24 @@
         "parameters" : [
             "Condition" : new StringDataType()
         ]
+    ],
+    
+    [
+        "name" : "SNS",
+        "displayName" : "SNS",
+        "category" : "jbpm-workitems-sns",
+        "description" : "",
+        "defaultHandler" : "mvel: new org.jbpm.process.workitem.sns.snsWorkItemHandler()",
+        "documentation" : "jbpm-workitems-sns/index.html",
+
+        "parameters" : [
+            "submissionId" : new StringDataType(),
+            "EventType" : new StringDataType(),
+            "groupReference" : new StringDataType(),
+            "numberOfMembersReceived" : new StringDataType(),
+            "numberinGroup" : new StringDataType(),
+            "workOrderList" : new ListDataType()  
+        ],
+        "icon" : "aws-sns.png"
     ]
 ]
