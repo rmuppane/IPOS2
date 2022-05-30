@@ -133,7 +133,7 @@
     [
         "name" : "Reassign",
         "displayName" : "Reassign",
-        "category" : "jbpm-workitems-sns",
+        "category" : "Custom",
         "description" : "",
         "defaultHandler" : "mvel: new com.rh.handler.Reassign()",
         "documentation" : "jbpm-workitems-sns/index.html",
@@ -147,7 +147,7 @@
     [
         "name" : "Allocate",
         "displayName" : "Allocate",
-        "category" : "jbpm-workitems-sns",
+        "category" : "Custom",
         "description" : "",
         "defaultHandler" : "mvel: new com.rh.handler.AllocateHandler()",
         "documentation" : "jbpm-workitems-sns/index.html",
