@@ -12,8 +12,7 @@
     <work-item-handlers>
 		<work-item-handler>
 			<resolver>mvel</resolver>
-			<identifier>new
-				org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>
+			<identifier>new com.rh.handler.AllocateHandler()</identifier>
 			<parameters />
 			<name>Rest</name>
 		</work-item-handler>
